@@ -1,0 +1,59 @@
+.info-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(17, 17, 17, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+
+  .info-block__my-photo {
+    width: 80%;
+  }
+
+  .text__links {
+    margin-top: 20px;
+    div{
+      a {
+        text-decoration: none;
+        color: rgb(43, 224, 43);
+        font-family: 'Sawarabi Mincho';
+        font-size: 18px;
+        letter-spacing: 0.4px;
+      }
+    }
+  }
+
+  h1 {
+    margin-top: 10px;
+    color: rgb(45, 194, 45);
+    font-family: 'Sawarabi Mincho';
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.4px;
+  }
+
+  h3 {
+    color: rgb(45, 194, 45);
+    font-family: 'Sawarabi Mincho';
+    font-weight: 400;
+    font-size: 22px;
+  }
+}
+@media (max-width: 1080px) {
+  .info-block {
+      width: 70%;
+  }
+}
+@media (max-width: 800px) {
+  .info-block {
+      width: 80%;
+  }
+}
+@media (max-width: 550px) {
+  .info-block {
+      width: 400px;
+  }
+}
